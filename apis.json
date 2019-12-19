@@ -1,0 +1,57 @@
+{
+    "name": "Misfit",
+    "description": "<p>Misfit is focused on developing great wearable products: things that people would want to wear all the time for a long time. A pioneer in the emerging world of wearable sensor technology, the company is making products and services in the consumer health and fitness space to inspire people be more active and develop healthy habits. Misfit&rsquo;s first product is the Shine, an elegant personal activity tracker that you can instantly sync with your smartphone just by placing the device on the screen.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/misfit-wearables.png",
+    "tags": [
+        "api provider",
+        "have api",
+        "wearables"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/misfit\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Misfit",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/misfit-wearables.png",
+            "humanURL": "https:\/\/build.misfit.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/misfit-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/misfit-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.misfit.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds.feedburner.com\/MisfitWearablesBlog"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Misfit-Developers"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Misfit"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/build.misfit.com\/"
+        }
+    ]
+}
