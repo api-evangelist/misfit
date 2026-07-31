@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/Misfit-Developers
+note: >-
+  Misfit's official developer surface (build.misfit.com Cloud API) was shut down
+  by Fossil Group in spring 2023 and all misfit.com hosts are now unreachable.
+  The first-party iOS SDKs remain published under the official Misfit-Developers
+  GitHub organization and CocoaPods, but are unmaintained (last updated 2016) and
+  depend on the now-defunct Misfit Cloud API.
+packages:
+  - language: objective-c
+    platform: ios
+    registry: cocoapods
+    name: MisfitSleepSDK
+    url: https://github.com/Misfit-Developers/SleepSDK
+    install: pod "MisfitSleepSDK"
+    official: true
+    status: unmaintained
+    description: Access the Misfit Smart Alarm feature via the Misfit Sleep SDK.
+  - language: objective-c
+    platform: ios
+    registry: cocoapods
+    name: MisfitLinkSDK
+    url: https://github.com/Misfit-Developers/LinkSDK
+    install: pod "MisfitLinkSDK"
+    official: true
+    status: unmaintained
+    description: Access the Misfit LINK smart button via the Misfit Link SDK.
