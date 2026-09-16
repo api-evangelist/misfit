@@ -23,17 +23,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/misfit.png
 name: Misfit
-description: >-
-  Misfit is a consumer wearables brand — fitness trackers and smartwatches such
-  as the Misfit Shine, Flash, Ray and Vapor — founded in 2011 by Sonny Vu, John
-  Sculley and Sridhar Iyengar and backed by Norwest Venture Partners, Khosla
-  Ventures, Founders Fund, GGV Capital and Xiaomi before being acquired by Fossil
-  Group in 2015. Misfit ran a developer program (the Misfit Cloud API, Device SDK
-  and Scientific Library) at build.misfit.com with 30+ launch partners. Fossil
-  discontinued the Misfit backend, Cloud API and companion app in spring 2023, so
-  the hosted API and all misfit.com domains are now unreachable. The only
-  surviving developer surface is the official Misfit-Developers GitHub
-  organization and its unmaintained iOS SDKs on CocoaPods.
+description: Misfit is a consumer wearables brand — fitness trackers and smartwatches such as the Misfit
+  Shine, Flash, Ray and Vapor — founded in 2011 by Sonny Vu, John Sculley and Sridhar Iyengar and backed
+  by Norwest Venture Partners, Khosla Ventures, Founders Fund, GGV Capital and Xiaomi before being acquired
+  by Fossil Group in 2015. Misfit ran a developer program (the Misfit Cloud API, Device SDK and Scientific
+  Library) at build.misfit.com with 30+ launch partners. Fossil discontinued the Misfit backend, Cloud
+  API and companion app in spring 2023, so the hosted API and all misfit.com domains are now unreachable.
+  The only surviving developer surface is the official Misfit-Developers GitHub organization and its unmaintained
+  iOS SDKs on CocoaPods.
 url: https://raw.githubusercontent.com/api-evangelist/misfit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -41,10 +38,10 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: defunct-api
+x-status: defunct
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Wearables
@@ -64,7 +61,9 @@ common:
   url: https://apis.io/providers/fossil-group/
   name: Fossil Group
   x-relationship: acquired
-  x-evidence: "Misfit is a consumer wearables brand — fitness trackers and smartwatches such as the Misfit Shine, Flash, Ray and Vapor — founded in 2011 by Sonny Vu, John Sculley and Sridhar Iyengar and backed by Norwest Venture Partners, Khosla Ventures,"
+  x-evidence: Misfit is a consumer wearables brand — fitness trackers and smartwatches such as the Misfit
+    Shine, Flash, Ray and Vapor — founded in 2011 by Sonny Vu, John Sculley and Sridhar Iyengar and backed
+    by Norwest Venture Partners, Khosla Ventures,
 - type: Website
   url: https://misfit.com
 - type: GitHubOrganization
